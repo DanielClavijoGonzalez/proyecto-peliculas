@@ -52,5 +52,5 @@ def formulario():
     usuariosregistrados.append({"nombres": nombres, "documento": documento, "correo": correo, "password": passwordd})
     return jsonify({"status": "Registro Exitoso"}), 200
 
-if __main__ == '__main__':
+if __name__ == '__main__':
     app.run(debug=True)
