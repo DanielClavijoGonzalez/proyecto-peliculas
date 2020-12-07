@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT main:app
+web: gunicorn -b :8000 main:app
